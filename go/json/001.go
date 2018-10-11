@@ -24,6 +24,7 @@ func main() {
 	}
 	decoder := json.NewDecoder(resp.Body)
 	var result Result
+	// struct非引用类型，所以需要取地址
 	decoder.Decode(&result)
 	fmt.Println(result.Message, result.DocUrl)
 }
