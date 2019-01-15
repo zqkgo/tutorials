@@ -2,25 +2,22 @@
 #include <stdlib.h>
 // 带typedef的struct
 // 使用的时候省去struct关键字
-typedef struct
-{
+typedef struct {
     char *name;
     char *color;
 } Fruit;
 
 // 成员可以包含指向当前结构体的指针
-struct Node
-{
+typedef struct Node {
     int data;
     struct Node *next;
-};
+} Node;
 
 // 不带typedef的struct
 // 使用的时候需要struct关键字
-struct Person
-{
+typedef struct Person {
     char *name;
-};
+} Person;
 
 int main()
 {

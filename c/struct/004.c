@@ -4,12 +4,11 @@
 #define CAP 20
 
 // sequence list
-typedef struct SList
-{
+typedef struct SList {
     int *arr;
     int len;
     int cap;
-}SList;
+} SList;
 
 int DeleteFrom(SList *list, int start, int amount);
 void PrintOut(SList *list);

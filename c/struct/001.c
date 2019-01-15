@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct Person
-{
+typedef struct Person {
 	int a;
 	char *b; // char b[]; is wrong
 	float c;

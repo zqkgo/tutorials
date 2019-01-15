@@ -13,19 +13,17 @@ int A[maxSize];
 int n;
 
 // 单链表
-typedef struct LNode
-{
+typedef struct LNode {
 	int data;
 	struct LNode *next;
-}LNode;
+} LNode;
 
 // 双链表
-typedef struct DLNode
-{
+typedef struct DLNode {
 	int data;
 	struct DLNode * prior;
 	struct DLNode *next;
-}DLNode;
+} DLNode;
 
 int main()
 {
