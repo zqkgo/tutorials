@@ -29,10 +29,12 @@ typedef struct DLNode
 
 int main()
 {
-	LNode *A = (LNode*)malloc(sizeof(LNode));
+	LNode *A;
+	LNode B;
+
+	A = malloc(sizeof(LNode));
 	A->data = 10;
 
-	LNode B;
 	B.data = 100;
 
 	printf("%d\n", A->data);
