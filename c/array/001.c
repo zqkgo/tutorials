@@ -8,7 +8,10 @@ int main()
 	int my_int = 68;
 	printf("sizeof value of my_int is: %lu\n", sizeof(my_int));
 
-	int my_arr[] ={100,3000,5};
+	unsigned int my_unsigned_int = 89;
+	printf("sizeof value of my_unsigned_int is: %lu\n", sizeof(my_unsigned_int));
+
+	int my_arr[] = {100,3000,5};
 	printf("sizeof value of my_arr is: %lu\n", sizeof(my_arr)); // 3 * 4
 
 	int arr_count;
