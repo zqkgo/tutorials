@@ -6,5 +6,5 @@ func main() {
 	// PreOrder(root)
 	// InOrder(root)
 	// PostOrder(root)
-	PreOrderInteration(root)
+	InOrderInteration(root)
 }
