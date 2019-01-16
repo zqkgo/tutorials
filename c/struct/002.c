@@ -3,11 +3,10 @@
 
 #define maxSize 100
 // 顺序表
-typedef struct 
-{
+typedef struct Sqlist{
 	int data[maxSize];
 	int length;
-}Sqlist;
+} Sqlist;
 
 int A[maxSize];
 int n;
